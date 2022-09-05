@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat&family=Raleway:wght@700&family=Tajawal:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat&family=Raleway:ital,wght@0,100;0,300;0,500;0,600;0,700;1,100;1,300;1,400&family=Tajawal:wght@400;900&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -208,3 +208,44 @@ nav i {
   text-align: center;
 }
 /* end services section */
+/* start About As section */
+.About-as {
+  background-image: url(/assets/aboutAs.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 75rem;
+}
+.About-as div {
+  background-color: white;
+  height: 24rem;
+  width: 20rem;
+  margin: 1.2rem;
+  padding: 1.5rem;
+  box-shadow: 4px 4px 20px 0 #969695;
+  position: relative;
+  top: 42.5rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.About-as h2 {
+  color: var(--mainColor);
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+.About-as h5 {
+  font-family: Raleway, sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+.About-as p {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.7;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(81, 80, 80);
+}
+/* end About As section */
