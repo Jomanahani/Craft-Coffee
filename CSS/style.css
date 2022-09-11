@@ -213,40 +213,41 @@ nav i {
   background-image: url(/assets/aboutAs.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 75rem;
+  height: 63rem;
 }
 .About-as div {
   background-color: white;
-  height: 24rem;
-  width: 20rem;
-  margin: 1.2rem;
-  padding: 1.5rem;
-  box-shadow: 4px 4px 20px 0 #969695;
+  height: 19.2rem;
+  width: 16.4rem;
+  margin: 1em 0.9rem;
+  padding: 0.7rem 1rem;
+  box-shadow: 2px 2px 15px 0 #9e9e9e;
   position: relative;
-  top: 42.5rem;
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  top: 35rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 .About-as h2 {
   color: var(--mainColor);
-  font-size: 4rem;
+  font-size: 3rem;
   padding-top: 1rem;
 }
 .About-as h5 {
   font-family: Raleway, sans-serif;
-  font-size: 1.5rem;
-  padding: 1rem 0;
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
 }
 .About-as p {
   font-family: "Raleway", sans-serif;
-  line-height: 1.7;
-  font-size: 1.2rem;
-  font-style: italic;
-  font-weight: 500;
-  color: rgb(81, 80, 80);
+  line-height: 1.5;
+  font-size: 1rem;
+  font-style: italic;  
+  font-weight: 600;
+  color: rgb(104, 103, 103);
+  padding-top: 1rem;
 }
 /* end About As section */
 /* start menu section */
