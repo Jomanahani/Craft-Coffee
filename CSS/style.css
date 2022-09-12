@@ -244,7 +244,7 @@ nav i {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   font-size: 1rem;
-  font-style: italic;  
+  font-style: italic;
   font-weight: 600;
   color: rgb(104, 103, 103);
   padding-top: 1rem;
@@ -258,7 +258,7 @@ nav i {
   background-position: 0 -5rem;
   display: grid;
   grid-template-columns: repeat(3, 11rem);
-  grid-template-rows: 12.2rem  12.2rem;
+  grid-template-rows: 12.2rem 12.2rem;
   gap: 1.2rem;
   justify-content: flex-end;
   padding: 8rem 12rem;
@@ -276,13 +276,13 @@ nav i {
   -ms-border-radius: 1.5rem;
   -o-border-radius: 1.5rem;
 }
-svg{
+svg {
   fill: white;
   height: 3rem;
   width: 3rem;
   margin: 1.5rem auto;
 }
-.rotate{
+.rotate {
   transform: rotate(50deg);
   -webkit-transform: rotate(50deg);
   -moz-transform: rotate(50deg);
@@ -290,3 +290,82 @@ svg{
   -o-transform: rotate(50deg);
 }
 /* end menu section */
+/* start Popular Dishes section */
+.popular {
+  background-color: var(--mainColor);
+}
+.popular .flex {
+  flex-wrap: wrap;
+  margin: 2rem 4rem;
+  padding-bottom: 7rem;
+  margin-bottom: 0;
+}
+.popular h1 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-family: Raleway, sans-serif;
+  padding-top: 3rem;
+}
+.dish img {
+  height: 15rem;
+  width: 19rem;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+  margin: 0 auto;
+}
+.dish {
+  background-color: white;
+  height: 31.1rem;
+  width: 22.6rem;
+  padding: 1.7rem;
+  margin: 1rem 0.8rem;
+  font-family: Raleway, sans-serif;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+}
+.dish h3 {
+  color: var(--mainColor);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+.dish > p {
+  line-height: 1.5;
+  padding: 0.7rem 0;
+}
+.dish .flex {
+  justify-content: space-between;
+  margin: 0;
+  padding: 1rem 0;
+}
+.price {
+  color: var(--mainColor);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.dish button {
+  width: 8.5rem;
+  height: 2.8rem;
+  background-color: var(--mainColor);
+  color: white;
+  border-color: transparent;
+  font-weight: 700;
+  font-size: 1rem;
+  /* margin-bottom: 3rem; */
+  padding: 1;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.dish button:hover {
+  background-color: black;
+}
+/* end Popular Dishes section */
