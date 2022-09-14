@@ -267,7 +267,84 @@ nav i {
   color: #4a4a49;
   text-align: center;
 }
-
+@media (max-width: 575px) {
+  .services h1 {
+    font-size: 2.3rem;
+    padding: 3rem 0;
+  }
+  .services .flex {
+    flex-direction: column;
+    padding: 0;
+  }
+  .services{
+    padding: 3rem;
+  }
+  .services .flex > div {
+    width: 19rem;
+    margin-bottom: 2rem;
+  }
+  .services img {
+    height: 9.5rem;
+    width: 19rem;
+    margin-top: 0.5rem;
+  }
+  .text {
+    padding: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .card{
+    width: 19rem;
+  }
+}
+@media (max-width: 767px) and (min-width: 575px) {
+  .services h1 {
+    font-size: 3.3rem;
+    padding: 3.5rem 0;
+  }
+  .services{
+    padding: 0;
+  }
+  .services .flex {
+    flex-direction: column;
+    padding: 0;
+  }
+  .services .flex > div {
+    width: 23rem;
+    margin-bottom: 2rem;
+  }
+  .services img {
+    height: 11.5rem;
+    width: 23rem;
+  }
+  .card{
+    width: 23rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 767px) {
+  .services h1 {
+    font-size: 3rem;
+    padding: 3.5rem 0;
+  }
+  .services{
+    padding: 0;
+  }
+  .services .flex {
+    padding: 1.7rem;
+  }
+  .services .flex > div {
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+  .services img {
+    height: 10rem;
+    width: 20rem;
+  }
+  .card{
+    width: 20rem;
+    height: 13rem;
+  }
+}
 /* end services section */
 /* start About As section */
 .About-as {
