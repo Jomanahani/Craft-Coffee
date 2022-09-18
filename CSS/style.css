@@ -7,7 +7,7 @@
 :root {
   --mainColor: #bfa98b;
 }
-body{
+body {
   font-family: "Raleway", sans-serif;
 }
 /*start nav bar section*/
@@ -218,7 +218,7 @@ nav i {
   font-size: 3.76rem;
   padding: 3.7rem 0;
 }
-.services{
+.services {
   padding: 0 11rem;
 }
 .flex {
@@ -276,7 +276,7 @@ nav i {
     flex-direction: column;
     padding: 0;
   }
-  .services{
+  .services {
     padding: 3rem;
   }
   .services .flex > div {
@@ -293,7 +293,7 @@ nav i {
     font-size: 1rem;
     line-height: 1.4;
   }
-  .card{
+  .card {
     width: 19rem;
   }
 }
@@ -302,7 +302,7 @@ nav i {
     font-size: 3.3rem;
     padding: 3.5rem 0;
   }
-  .services{
+  .services {
     padding: 0;
   }
   .services .flex {
@@ -317,7 +317,7 @@ nav i {
     height: 11.5rem;
     width: 23rem;
   }
-  .card{
+  .card {
     width: 23rem;
   }
 }
@@ -326,7 +326,7 @@ nav i {
     font-size: 3rem;
     padding: 3.5rem 0;
   }
-  .services{
+  .services {
     padding: 0;
   }
   .services .flex {
@@ -340,7 +340,7 @@ nav i {
     height: 10rem;
     width: 20rem;
   }
-  .card{
+  .card {
     width: 20rem;
     height: 13rem;
   }
@@ -354,7 +354,7 @@ nav i {
   height: 63rem;
   /* display: none; */
 }
-.About-as.flex{
+.About-as.flex {
   justify-content: space-between;
 }
 .About-as div {
@@ -390,11 +390,11 @@ nav i {
   padding-top: 1rem;
 }
 @media (max-width: 520px) {
-  .About-as.flex{
+  .About-as.flex {
     flex-wrap: wrap;
     margin-bottom: 10rem;
   }
-  .About-as div{
+  .About-as div {
     margin: 1rem auto;
     height: 14rem;
     width: 19rem;
@@ -413,12 +413,12 @@ nav i {
   }
 }
 @media (max-width: 725px) and (min-width: 520px) {
-  .About-as.flex{
+  .About-as.flex {
     flex-wrap: wrap;
     margin: 0 auto;
     margin-bottom: 24rem;
   }
-  .About-as div{
+  .About-as div {
     margin: 1rem auto;
     height: 16.5rem;
     width: 23.4rem;
@@ -436,22 +436,22 @@ nav i {
     padding-top: 0.6rem;
   }
 }
-@media (min-width: 725px) and (max-width: 767px){
-  .About-as.flex{
+@media (min-width: 725px) and (max-width: 767px) {
+  .About-as.flex {
     flex-wrap: wrap;
     margin: 0 auto;
     margin-bottom: 16rem;
   }
-  .About-as.parent{
+  .About-as.parent {
     padding: 0 3.5rem;
   }
-  .About-as div{
+  .About-as div {
     margin: 1rem auto;
     height: 15rem;
     width: 18.5rem;
     top: 14.5rem;
   }
-  .About-as{
+  .About-as {
     height: 36rem;
   }
   .About-as h5 {
@@ -463,40 +463,40 @@ nav i {
   }
 }
 @media (max-width: 900px) and (min-width: 767px) {
-  .About-as.flex{
+  .About-as.flex {
     flex-wrap: wrap;
     margin: 0 auto;
     margin-bottom: 16rem;
   }
-  .About-as.parent{
+  .About-as.parent {
     padding: 0 3.5rem;
   }
-  .About-as div{
+  .About-as div {
     margin: 1rem auto;
     height: 15.7rem;
     width: 19.5rem;
     top: 14.5rem;
   }
-  .About-as{
+  .About-as {
     height: 36rem;
   }
 }
 @media (max-width: 1145px) and (min-width: 900px) {
-  .About-as.flex{
+  .About-as.flex {
     flex-wrap: wrap;
     margin: 0 auto;
     margin-bottom: 20rem;
   }
-  .About-as.parent{
+  .About-as.parent {
     padding: 0 3.5rem;
   }
-  .About-as div{
+  .About-as div {
     margin: 0.5rem auto;
     height: 16.7rem;
     width: 22.5rem;
     top: 18.5rem;
   }
-  .About-as{
+  .About-as {
     height: 36rem;
   }
 }
@@ -620,3 +620,86 @@ svg {
   background-color: black;
 }
 /* end Popular Dishes section */
+/*start Vegetarian section */
+.Vegetarian {
+  position: relative;
+  padding-top: 5rem;
+  height: 70rem;
+  /* padding-bottom: 5rem; */
+  background-image: linear-gradient(rgb(20, 20, 20), rgb(65, 64, 64));
+}
+.Vegetarian img {
+  height: 42rem;
+  width: 63rem;
+  position: absolute;
+  z-index: 1;
+  left: 16rem;
+  top: 9.5rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.v-menu {
+  height: 29rem;
+  width: 29rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  position: absolute;
+  z-index: 2;
+  left: 46.5rem;
+  top: 37rem;
+}
+.v-menu h2 {
+  color: var(--mainColor);
+  font-size: 2.2rem;
+  padding: 1rem 0;
+}
+.v-menu p {
+  line-height: 2rem;
+  padding: 1.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #1f1f1f;
+}
+.v-menu button {
+  border-color: var(--mainColor);
+  outline: none;
+  background-color: transparent;
+  padding: 1.2rem;
+  width: 12rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  /* font-weight: 500; */
+  margin-top: 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.back {
+  background-color: var(--mainColor);
+  z-index: 0;
+  position: absolute;
+  border-radius: 1.3rem;
+  -webkit-border-radius: 1.3rem;
+  -moz-border-radius: 1.3rem;
+  -ms-border-radius: 1.3rem;
+  -o-border-radius: 1.3rem;
+}
+.up {
+  height: 38rem;
+  width: 29.5rem;
+  left: 53.6rem;
+}
+.down {
+  height: 27rem;
+  width: 27rem;
+  left: 12rem;
+  top: 29rem;
+}
+/*end Vegetarian section */
