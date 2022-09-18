@@ -561,6 +561,7 @@ svg {
 .dish img {
   height: 15rem;
   width: 19rem;
+  object-fit: cover;
   border-radius: 0.7rem;
   -webkit-border-radius: 0.7rem;
   -moz-border-radius: 0.7rem;
@@ -608,7 +609,6 @@ svg {
   border-color: transparent;
   font-weight: 700;
   font-size: 1rem;
-  /* margin-bottom: 3rem; */
   padding: 1;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
@@ -625,7 +625,6 @@ svg {
   position: relative;
   padding-top: 5rem;
   height: 70rem;
-  /* padding-bottom: 5rem; */
   background-image: linear-gradient(rgb(20, 20, 20), rgb(65, 64, 64));
 }
 .Vegetarian img {
@@ -673,7 +672,6 @@ svg {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  /* font-weight: 500; */
   margin-top: 2rem;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
@@ -703,3 +701,47 @@ svg {
   top: 29rem;
 }
 /*end Vegetarian section */
+/* start gallery section */
+.gallery h1 {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3rem;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+.gallery img {
+  height: 22rem;
+  width: 22rem;
+  margin-bottom: 2.2rem;
+  object-fit: cover;
+}
+.gallery .flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery button{
+  display: block;
+  margin: 3rem auto;
+  background-color: transparent;
+  outline: none;
+  border-color: var(--mainColor);
+  padding: 1rem;
+  letter-spacing: 0.2rem;
+  font-size: 0.9rem;
+  width: 13rem;
+  height: 3.9rem;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.gallery button:hover{
+  background-color: var(--mainColor);
+  color: white;
+}
+/* end gallery section */
