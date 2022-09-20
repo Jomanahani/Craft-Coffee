@@ -507,14 +507,28 @@ nav i {
   height: 45rem;
   background-size: cover;
   background-position: 0 -5rem;
-  display: grid;
-  grid-template-columns: repeat(3, 11rem);
-  grid-template-rows: 12.2rem 12.2rem;
-  gap: 1.2rem;
-  justify-content: flex-end;
-  padding: 8rem 12rem;
 }
-.menu div {
+.menu .flex {
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.container {
+  width: 40rem;
+  height: 20rem;
+  position: relative;
+  top: 8rem;
+  left: 17.1rem;
+}
+.container.flex {
+  margin: 0 auto;
+  justify-content: center;
+}
+.container div {
+  height: 12.2rem;
+  width: 11rem;
+  padding: 8rem 12rem;
+  margin-bottom: 1.2rem;
+  margin-left: 1.2rem;
   color: white;
   background-color: #161616a8;
   text-align: center;
@@ -539,6 +553,87 @@ svg {
   -moz-transform: rotate(50deg);
   -ms-transform: rotate(50deg);
   -o-transform: rotate(50deg);
+}
+@media (max-width: 520px) {
+  .menu {
+    background-position: -284px 0rem;
+  }
+  .container {
+    width: 18.4rem;
+    position: relative;
+    top: 3rem;
+    margin: 0 auto;
+    left: 0rem;
+  }
+  .container div {
+    height: 11rem;
+    width: 8.5rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+@media (max-width: 725px) and (min-width: 520px) {
+  .menu {
+    background-position: -260px 0rem;
+  }
+  .container {
+    width: 25rem;
+    top: 5rem;
+    left: 0rem;
+  }
+  .container div {
+    height: 11.5rem;
+    width: 10.4rem;
+    margin-bottom: 1rem;
+    margin-left: 0.8rem;
+  }
+}
+@media (min-width: 725px) and (max-width: 767px) {
+  .menu {
+    background-position: -260px 0rem;
+  }
+  .container {
+    width: 35rem;
+    top: 3.5rem;
+    left: 0rem;
+  }
+  .container div {
+    height: 12.5rem;
+    width: 16rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+  }
+}
+@media (max-width: 900px) and (min-width: 767px) {
+  .menu {
+    background-position: -210px 0rem;
+  }
+  .container {
+    width: 38rem;
+    top: 3.5rem;
+    left: 0rem;
+  }
+  .container div {
+    height: 12rem;
+    width: 17.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+    font-size: 1.4rem;
+  }
+  svg {
+    height: 3.3rem;
+    width: 3.3rem;
+    margin: 1.3rem auto;
+  }
+}
+@media (max-width: 1145px) and (min-width: 900px) {
+  .menu {
+    background-position: -90px 0rem;
+  }
+  .container {
+    width: 38rem;
+    left: 6rem;
+  }
 }
 /* end menu section */
 /* start Popular Dishes section */
@@ -721,7 +816,7 @@ svg {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.gallery button{
+.gallery button {
   display: block;
   margin: 3rem auto;
   background-color: transparent;
@@ -740,7 +835,7 @@ svg {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
-.gallery button:hover{
+.gallery button:hover {
   background-color: var(--mainColor);
   color: white;
 }
