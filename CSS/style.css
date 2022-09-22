@@ -894,3 +894,56 @@ svg {
   color: white;
 }
 /* end gallery section */
+/* start cappuccino section */
+.cappuccino {
+  position: relative;
+  background-image: linear-gradient(white 51%, #332f29 49%);
+  height: 70rem;
+}
+.cappuccino .back {
+  height: 52rem;
+  width: 18rem;
+  left: 64.9rem;
+  top: 6.5rem;
+}
+.cappuccino img {
+  display: block;
+  position: relative;
+  top: 11rem;
+  z-index: 1;
+  height: 43rem;
+  width: 62rem;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.note {
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  color: rgb(17, 17, 17);
+  padding: 2.2rem;
+  height: 23rem;
+  width: 37rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.note h4 {
+  letter-spacing: 0.12rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+.note p {
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding: 0.8rem 0;
+}
+/* end cappuccino section */
