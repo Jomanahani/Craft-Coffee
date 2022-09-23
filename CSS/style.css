@@ -86,7 +86,7 @@ nav i {
 /* start home section */
 .Home {
   height: 60rem;
-  background-image: url(/assets/home.jpg);
+  background-image: url(../assets/home.jpg);
   background-repeat: no-repeat;
 }
 .Home div {
@@ -348,7 +348,7 @@ nav i {
 /* end services section */
 /* start About As section */
 .About-as {
-  background-image: url(/assets/aboutAs.jpg);
+  background-image: url(../assets/aboutAs.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 63rem;
@@ -503,7 +503,7 @@ nav i {
 /* end About As section */
 /* start menu section */
 .menu {
-  background-image: url(/assets/menu.jpg);
+  background-image: url(../assets/menu.jpg);
   height: 45rem;
   background-size: cover;
   background-position: 0 -5rem;
